@@ -26,7 +26,6 @@
 
         $result = curl_exec ($curl);
         curl_close ($curl);
-        // print $result;
         $products =  json_decode($result,true);
 
         if(count($products) >=0 ){
