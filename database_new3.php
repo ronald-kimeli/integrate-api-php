@@ -32,6 +32,7 @@
         if(count($products) >=0 ){
                 foreach((array)$products as $object):{
                     foreach((array)$object as $grenade):{
+			if(is_array($grenade)){
                         foreach((array)$grenade as $base):{
                             if(isset($base[0]) || isset($base[1]) || isset($base[2]) || isset($base[3]) 
                                 || isset($base[4]) || isset($base[5]) || isset($base[6]) || isset($base[7]) 
@@ -63,7 +64,8 @@
                             }
                           
                     }
-                endforeach; 
+                endforeach;
+		}		
             }
         endforeach;  
         }
