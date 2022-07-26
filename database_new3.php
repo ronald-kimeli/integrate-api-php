@@ -61,9 +61,8 @@
                                     <td>' . $base[8] . '</td>
                                 </tr>'; //Data for display on Web page
                                }
-                            }
-                          
-                    }
+                            }  
+                       }
                 endforeach;
 		}		
             }
