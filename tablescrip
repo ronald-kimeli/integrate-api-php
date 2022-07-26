@@ -3,15 +3,15 @@
  --  
  CREATE TABLE IF NOT EXISTS `api_datas` (  
   `id` int(11) NOT NULL AUTO_INCREMENT,  
-  `mechnism` varchar(50) NOT NULL,  
-  `code` varchar(10) NOT NULL,  
-  `uid` varchar(30) NOT NULL,
-  `partner` varchar(30)  NULL, 
-  `primeid` varchar(30)  NULL, 
-  `agency` varchar(30)  NULL, 
-  `ou` varchar(30)  NULL, 
-  `startdate` varchar(30)  NULL, 
-  `enddate` varchar(30)  NULL,   
+  `mechanism` varchar(191) NOT NULL,  
+  `code` varchar(191) NOT NULL,  
+  `uid` varchar(191) NOT NULL,
+  `partner` varchar(191)  NULL, 
+  `primeid` varchar(191)  NULL, 
+  `agency` varchar(191)  NULL, 
+  `ou` varchar(191)  NULL, 
+  `startdate` varchar(191)  NULL, 
+  `enddate` varchar(191)  NULL,   
   PRIMARY KEY (`id`)  
  ) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;  
  --  
