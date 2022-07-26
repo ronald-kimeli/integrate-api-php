@@ -25,7 +25,7 @@
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
 
         $result = curl_exec ($curl);
-        // curl_close ($curl);
+        curl_close ($curl);
         // print $result;
         $products =  json_decode($result,true);
 
@@ -71,7 +71,7 @@
         }
     endforeach;
     }
-
+	    
 if (mysqli_multi_query($connect, $query)) //Run Mutliple Insert Query
         {
             echo '<h3 class="alert alert-success">Data Saved To Database Successfully!</h3><br />';
@@ -92,9 +92,6 @@ if (mysqli_multi_query($connect, $query)) //Run Mutliple Insert Query
             echo $table_data;
             echo '</table>';
         }
- 
-    curl_close($curl);
-
         ?>
         <br />
     </div>
