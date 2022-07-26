@@ -46,20 +46,21 @@
                                        header("Location: new3.php");
                                        exit(0); 
                                     }
-                                else{
-                                $query .= "INSERT INTO api_datas(mechanism,code,uid,partner,primeid,agency,ou,startdate,enddate) VALUES ('" . $base[0] . "', '" . $base[1] . "', '" . $base[2] . "', '" . $base[3] . "', '" . $base[4] . "', '" . $base[5] . "', '" . $base[6] . "', '" . $base[7]. "', '" . $base[8]. "'); ";  // Make Multiple Insert Query 
-                                $table_data .= '<tr>
-                                    <td>' . $base[0] . '</td>
-                                    <td>' . $base[1] . '</td>
-                                    <td>' . $base[2] . '</td>
-                                    <td>' . $base[3] . '</td>
-                                    <td>' . $base[4] . '</td>
-                                    <td>' . $base[5] . '</td>
-                                    <td>' . $base[6] . '</td>
-                                    <td>' . $base[7] . '</td>
-                                    <td>' . $base[8] . '</td>
-                                </tr>'; //Data for display on Web page
-                               }
+                                else
+				    {
+					$query .= "INSERT INTO api_datas(mechanism,code,uid,partner,primeid,agency,ou,startdate,enddate) VALUES ('" . $base[0] . "', '" . $base[1] . "', '" . $base[2] . "', '" . $base[3] . "', '" . $base[4] . "', '" . $base[5] . "', '" . $base[6] . "', '" . $base[7]. "', '" . $base[8]. "'); ";  // Make Multiple Insert Query 
+					$table_data .= '<tr>
+					    <td>' . $base[0] . '</td>
+					    <td>' . $base[1] . '</td>
+					    <td>' . $base[2] . '</td>
+					    <td>' . $base[3] . '</td>
+					    <td>' . $base[4] . '</td>
+					    <td>' . $base[5] . '</td>
+					    <td>' . $base[6] . '</td>
+					    <td>' . $base[7] . '</td>
+					    <td>' . $base[8] . '</td>
+					</tr>'; //Data for display on Web page
+				    }
                             }  
                        }
                 endforeach;
