@@ -12,7 +12,7 @@
 
 <body>
     <div class="container">
-        <h3 align="center">Import JSON File Data into Mysql Database in PHP</h3><br />
+        <h3 align="center">Load API Data into Database</h3><br />
         
         <?php
         session_start();
