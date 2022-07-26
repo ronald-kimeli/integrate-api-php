@@ -11,13 +11,16 @@
 <body>
 
 	<h2 class="danger">Display API data in an html table</h2>
-    <div>To save Api Data Click the link</div><a href="database_new3.php" class="btn btn-outline-danger float-end">Save_To_Database</a>
-	<table > <div><?php 
-      session_start();
-      include('message.php'); 
-      ?></div> 
-		<!-- The tables header -->
-        <tr>
+    <div class="text-center">To save Api Data Click the link</div><a href="database_new3.php" class="btn btn-outline-danger float-end">Save_To_Database</a>
+	<table > 
+	    <div>
+	      <?php 
+	      session_start();
+	      include('message.php'); 
+	       ?>
+	     </div> 
+		<!-- Table header -->
+               <tr>
 			<th>Mechanism</th>
 			<th>Code</th>
 			<th>uid</th>
@@ -44,8 +47,6 @@
                     echo $e;
                 }
                 elseif(count($decs) !=0) {
-                    // $decoded =json_decode($result,true);
-                
                     foreach($decs as $ma):{
                         foreach($ma as $m):{
                             if(is_array($m)){
