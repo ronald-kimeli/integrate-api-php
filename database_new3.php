@@ -37,7 +37,7 @@
                                 || isset($base[4]) || isset($base[5]) || isset($base[6]) || isset($base[7]) 
                                 || isset($base[8])) //Extract the Array Values by using Foreach Loop
                                  {
-                                    $checkmechanism = "SELECT mechanism FROM apidatas WHERE mechanism = '$base[0]'";
+                                    $checkmechanism = "SELECT mechanism FROM api_datas WHERE mechanism = '$base[0]'";
                                     $checkmechanism_run = mysqli_query($connect,$checkmechanism);
                             
                                     if(mysqli_num_rows($checkmechanism_run) > 0)
