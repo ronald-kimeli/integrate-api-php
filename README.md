@@ -16,10 +16,4 @@ git clone https://github.com/ronald-kimeli/laravel-postcodes-api.git
 
 * __*On Browser*__
 
-* On Big screen
-
 ![alt text](https://github.com/ronald-kimeli/integrate-api-php/blob/main/public/Screenshot1.png?raw=true)
-
-* On Small or mobile screen
-
-![alt text](https://github.com/ronald-kimeli/integrate-api-php/blob/main/public/Screenshot2.png?raw=true)
