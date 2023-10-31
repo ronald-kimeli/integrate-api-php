@@ -1,16 +1,25 @@
-# api_extraction
+# Display API data to a table and later to database using PHP
 
-~~~~
-The api is read by the curl method in new3.php and displayed on a table dynamically after fine foreach loop.
-~~~~
+Consume this endpoint `https://www.datim.org/api/sqlViews/fgUtV6e9YIX/data.json` and display on a table an later populate to database.
 
-''''
-On the other hand database_new3.php is the script to store the required data from api into database.
-''''
+## Installation
 
-'''
-The link to store into database is provided in new3.php
-'''
+* clone this project into your machine
 
+```bash
+git clone https://github.com/ronald-kimeli/laravel-postcodes-api.git
+```
 
-# tablescrip is sql script for database
+* Run PHP app and Navigate to the browser.
+
+## Testing
+
+* __*On Browser*__
+
+* On Big screen
+
+![alt text](https://github.com/ronald-kimeli/laravel-postcodes-api/blob/master/public/Screenshot1.png?raw=true)
+
+* On Small or mobile screen
+
+![alt text](https://github.com/ronald-kimeli/laravel-postcodes-api/blob/master/public/Screenshot2.png?raw=true)
