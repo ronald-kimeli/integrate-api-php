@@ -7,7 +7,7 @@ Consume this endpoint `https://www.datim.org/api/sqlViews/fgUtV6e9YIX/data.json`
 * clone this project into your machine
 
 ```bash
-git clone https://github.com/ronald-kimeli/laravel-postcodes-api.git
+git clone https://github.com/ronald-kimeli/integrate-api-php.git
 ```
 
 * Run PHP app and Navigate to the browser.
